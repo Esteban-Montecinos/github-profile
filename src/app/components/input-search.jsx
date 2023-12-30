@@ -25,7 +25,7 @@ export default function InputSearch() {
           "data-[hover=true]:border-gris-claro"
         ]
       }}
-      placeholder="username"
+      placeholder="Nombre de usuario"
       startContent={
         <SearchIcon className="flex-shrink-0 mr-2 pointer-events-none" />
       }
