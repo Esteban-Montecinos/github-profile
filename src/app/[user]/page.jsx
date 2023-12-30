@@ -44,7 +44,7 @@ export default async function page({ params: { user } }) {
         </div>
       </div>
       <div className="flex flex-col">
-      <a href={html_url} className="text-[2rem] hover:underline" target="_blank" rel="noopener noreferrer">{name}</a>
+      <a href={html_url} className="text-[2rem] hover:underline w-fit" target="_blank" rel="noopener noreferrer">{name}</a>
         <p className="text-base text-gris">{bio}</p>
       </div>
       <Repos repos_url={repos_url} />
