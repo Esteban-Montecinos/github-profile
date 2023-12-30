@@ -25,7 +25,7 @@ export default async function page({ params: { user } }) {
     res.json()
   );
   if (!name || message === "Not Found") {
-    redirect("/github");
+    redirect("/Esteban-Montecinos");
   }
   return (
     <section className="flex flex-col w-full max-w-6xl px-8 sm:px-16 m-auto min-h-[calc(100vh-256px)]">
