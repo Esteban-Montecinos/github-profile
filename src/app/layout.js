@@ -12,6 +12,10 @@ const beVietnamPro = Be_Vietnam_Pro({
 export const metadata = {
   title: "Buscador de prefiles de GitHub",
   description: "Buscador de prefiles de GitHub creado por Esteban Montecinos",
+  metadataBase: new URL('https://buscador-perfil-github.vercel.app/'),
+  openGraph: {
+    images: '/og-image.png',
+  },
 };
 
 export default function RootLayout({ children }) {
